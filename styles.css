@@ -1,2 +1,25 @@
 header { background-color: #1f2937;}
-footer { background-color: #152937;}
+footer { background-color: #1f2937; color:wheat; text-align: center;}
+
+/* .hero h1 {font: 48px Arial extra-bold #f9faf8};  */
+.hero {color: #f9faf8; display: flex;}
+.hero div {padding: 20px;}
+.hero h1 { font: 20px Arial, sans-serif; color: #f9faf8; }
+.hero .secondary-text {font: 18px extra-bold; color: #f9faf8;}
+.hero .image-placeholder { background-color: lightgray; text-align: center; vertical-align: middle; width: 200px; height: 200px;}
+
+.main-body { background-color: white;}
+
+.main-body .call-to-action { background-color: #3882f6; color: white;}
+button {background-color: #3882f6; border-color: white; color: white; border-radius: 15px; padding: 5px;}
+
+.information-header { font: 36px extra-bold; color: #1f2937}
+
+.quote-section { background-color: #E5e7eb;}
+
+.quote-section p { font: 36px light italic; color: #1f2937; text-align: center; padding: 20px;}
+
+.container {display: flex;}
+.container .square {flex:1; font-size: smaller;}
+
+.container .square  .placeholder {border: 2px solid blue; border-radius: 25px; width: 100px; height: 100px;}
